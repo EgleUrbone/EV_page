@@ -1,10 +1,12 @@
 import './App.css';
-import Header from './components/Header';
+import CTA from './components/layout/CTA';
+import Header from './components/layout/Header';
 
 function App() {
   return (
     <div>
       <Header />
+      <CTA />
     </div>
   );
 }
