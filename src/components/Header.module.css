@@ -1,0 +1,18 @@
+.burger {
+  display: none;
+}
+
+.open {
+  display: inline;
+}
+
+
+@media screen and (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+
+  .open {
+    display: none;
+  }
+}
