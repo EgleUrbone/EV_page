@@ -3,7 +3,7 @@ import css from './Paslaugos.module.css';
 
 export default function Paslaugos() {
   return (
-    <section className={css.paslaugos}>
+    <section id='paslaugos' className={css.paslaugos}>
       <h2 className={css.mainTitle}>paslaugos</h2>
       <ul className={css.list}>
         <li className={css.listItem}>

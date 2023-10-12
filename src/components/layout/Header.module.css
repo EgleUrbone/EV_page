@@ -34,6 +34,10 @@
   text-decoration: underline;
 }
 
+.active:hover {
+  color: var(--blue);
+}
+
 
 @media screen and (max-width: 767px) {
   .burger {
