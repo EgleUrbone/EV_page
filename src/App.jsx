@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Projektai from './components/Projektai';
 import CTA from './components/layout/CTA';
 import Header from './components/layout/Header';
 import Paslaugos from './components/layout/Paslaugos';
@@ -11,6 +12,7 @@ function App() {
       <CTA />
       <About />
       <Paslaugos />
+      <Projektai />
     </div>
   );
 }
