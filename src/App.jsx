@@ -4,7 +4,8 @@ import Kontaktai from './components/Kontaktai';
 import Projektai from './components/Projektai';
 import CTA from './components/layout/CTA';
 import Header from './components/layout/Header';
-import Paslaugos from './components/layout/Paslaugos';
+import Paslaugos from './components/Paslaugos';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Paslaugos />
       <Projektai />
       <Kontaktai />
+      <Footer />
     </div>
   );
 }
