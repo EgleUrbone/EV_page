@@ -1,9 +1,32 @@
+.headerCont {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 .burger {
   display: none;
 }
 
 .open {
   display: inline;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  text-align: right;
+  right: 0px;
+  background-color: var(--red);
+  padding: 50px 20px;
+  font-size: 20px;
+  width: 100vw;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 
@@ -15,4 +38,6 @@
   .open {
     display: none;
   }
+
+  
 }

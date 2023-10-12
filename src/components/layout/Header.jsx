@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header>
+    <header className={css.headerCont}>
       <p className='logo'>Reklamos paslaugos</p>
       <nav>
         <div className={css.burger} onClick={toggleHamburger}>
