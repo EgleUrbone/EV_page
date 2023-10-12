@@ -7,8 +7,8 @@
 }
 
 .aboutHeadLine {
-  color: var(--red);
-  font-size: 45px;
+  width: 50%;
+  margin-bottom: 30px;
 }
 
 .text {

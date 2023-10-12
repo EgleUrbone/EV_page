@@ -4,7 +4,7 @@ import css from './Paslaugos.module.css';
 export default function Paslaugos() {
   return (
     <section id='paslaugos' className={css.paslaugos}>
-      <h2 className={css.mainTitle}>paslaugos</h2>
+      <img className={css.mainTitle} src="/img/paslaugos.png" alt="paslaugos" />
       <ul className={css.list}>
         <li className={css.listItem}>
           <img className={css.icon} src='/img/form-field-multiline-svgrepo-com.svg' alt='multiline icon' />
