@@ -1,0 +1,39 @@
+.cta {
+  background-image: url('/public/img/ev.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textCont {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainLine {
+  font-size: 40px;
+  font-family: 'Yeseva One', serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 10px #5e65ab43;
+}
+
+.btn {
+  background-color: var(--red);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 25px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  /* background-color: #ef5a4079; */
+  box-shadow: 0 0 15px var(--red);
+  transition: 0.3s;
+  font-weight: 600;
+}

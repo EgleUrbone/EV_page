@@ -3,7 +3,12 @@
 }
 
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Yeseva One', serif;
+  --primary: black;
+  --blue: #5e64ab;
+  --yellow: #ecab37;
+  --red: #ef5940;
 }
 
 button {
@@ -12,6 +17,7 @@ button {
 
 body {
   margin: 0;
+  background-color: #f3e7d8;
 }
 
 img {
@@ -38,7 +44,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   /* apridboti tik maximalu ploti */
-  max-width: 600px;
+  max-width: 1000px;
   /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
   margin: 0 auto;
 }
