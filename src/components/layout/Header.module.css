@@ -4,6 +4,11 @@
   justify-content: space-between;
   margin-top: 10px;
 }
+
+.logo {
+  font-size: 18px;
+}
+
 .burger {
   display: none;
 }
